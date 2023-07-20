@@ -1,0 +1,13 @@
+.idea/
+
+target/
+
+**/test/resources/pipeline.properties
+
+**/Temporary*.java
+
+**/cucumber*
+
+Jenkinsfile
+
+**/*.iml
