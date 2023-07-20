@@ -82,7 +82,6 @@ public class DataInputTest {
     }
 
     public List<Integer> fromLettersToIntList(String text) {
-        int start = 1;
         List<Integer> intList = new ArrayList<>();
         String[] letterArray = text.split("");
         for (int i = 0; i < letterArray.length; i++) {

@@ -2,7 +2,6 @@ package stepDefinitions;
 
 import dataProvider.DataInput;
 import dataProvider.Person;
-import io.cucumber.datatable.DataTable;
 import io.cucumber.java.After;
 import io.cucumber.java.DataTableType;
 import io.cucumber.java.en.Given;
@@ -17,7 +16,6 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
 
 public class TestChallengeStepDefinitions {
     private WebDriver driver;

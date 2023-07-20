@@ -32,7 +32,7 @@ public class BasePage {
     protected void waitForElementToBeVisible(WebElement webElement) {
         try {
             wait.until(ExpectedConditions.visibilityOf(webElement));
-            System.out.println(String.format("%s become visible", webElement));
+            System.out.printf("%s become visible%n", webElement);
         } catch (TimeoutException ex)
         {
             System.out.println(ex.getLocalizedMessage());
